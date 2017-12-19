@@ -21,7 +21,8 @@ module.exports = {
     plugins: [
         new webpack.ProvidePlugin({
             riot: "riot",
-            axios: "axios"
+            axios: "axios",
+            createStore: ["redux", "createStore"]
         }),
         new HtmlWebpackPlugin({
             template: 'src/index.html'

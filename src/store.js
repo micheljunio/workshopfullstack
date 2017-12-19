@@ -1,4 +1,6 @@
-initialState = {
+import reducers from "./reducers/rootreducer"
+
+const initialState = {
     pessoas: [],
     seExibeLista: true
 }

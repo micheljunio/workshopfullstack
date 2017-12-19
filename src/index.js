@@ -1,3 +1,9 @@
 import "../build/tags"
+import store from "./store"
+import * as actions from "./actions/actions"
+
+const reduxGlobal = {...store, ...actions}
+
+riot.mixins("reduxGlobal", reduxGlobal)
 
 riot.mount("#view", "app");
