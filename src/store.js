@@ -1,4 +1,5 @@
 import reducers from "./reducers/rootreducer"
+import {createStore} from "redux"
 
 const initialState = {
     pessoas: [],
