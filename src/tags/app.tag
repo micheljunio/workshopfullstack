@@ -1,5 +1,5 @@
 <app>
-    <H1>App</H1>
-    <H1>Work</H1>
-    <H1>Shop..</H1>
+    <H1>Workshop</H1>
+    <button onclick={gerarListaPessoas}>Gerar lista de pessoas </button>
+    <lista-pessoas/>
 </app>

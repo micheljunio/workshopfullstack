@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "w:r": "riot --config riot.config -w",
     "w:wp": "webpack -w",
-    "start": "npm run w:r /b npm run w:wp"
+    "start": "npm run w:r & npm run w:wp"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,8 @@
     "webpack": "^3.10.0"
   },
   "dependencies": {
-    "riot": "^3.7.4",
-    "axios": "^0.17.1"
+    "axios": "^0.17.1",
+    "redux": "^3.7.2",
+    "riot": "^3.7.4"
   }
 }
